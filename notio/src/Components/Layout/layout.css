@@ -1,0 +1,143 @@
+header{
+    width:100%;
+    position: fixed;
+    height: 50px;
+    background-color:#6082B6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Gill Sans", sans-serif;
+    border-bottom-left-radius: 10px;
+    z-index: 3;
+}
+
+.nav-icon-container{
+    width:140px;
+    height: 100%;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 16px;
+    padding-right: 5px;
+    border-top-right-radius: 30px;
+}
+.site-name-container{
+    color:white;
+    height:100%;
+    width:210px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius:35px;
+    text-indent: 10px;
+    justify-content: space-between;
+}
+.icon-menu{
+  margin-right:10px;
+}
+.side-menu{
+  //display:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    width:140px;
+    background:#3C5B6F;
+    height: 100vh;
+    z-index: 2;
+    outline:1px solid #3C5B6F ;
+}
+nav{
+    height: 250px;
+    width:100%;
+    background:white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav ul{
+    list-style-type:none;
+    line-height: 30px;
+    width:100%;
+    
+}
+nav li{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    text-indent: 3px;
+    font-size: 18px;
+    margin-top: 5px;
+  //  margin-bottom: 5px;
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    color:black;
+}
+nav li:hover{
+    font-size: 20px; 
+    width:100%;
+}
+nav a:hover{
+  color: white;
+  background-color:#13274F;
+}
+.icon-nav:hover{
+  color:black;
+}
+.icon-nav{
+  display:inline;
+  margin-left:2px;
+}
+
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color:#474F7A;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    color:white;
+}

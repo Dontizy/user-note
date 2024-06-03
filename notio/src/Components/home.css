@@ -1,0 +1,58 @@
+.note-container{
+    width:99%;
+    min-height:100px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap:5px;
+    margin: 3px;
+    b
+}
+.note{
+    height:65px;
+    //background: #F6F5F2;
+    border-radius:5px;
+    border-left:4px solid #3C5B6F;
+    border-right:4px solid #3C5B6F;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    justify-content: space-between;
+    outline: 1px solid #3C5B6F;
+    }
+   
+   .note-list-info{
+       display: flex;  
+       width:100%;
+       justify-content: space-between;
+       background-color: #fff;
+       border-bottom-width: 2px;
+       padding:0;
+       align-items: center;
+       height: 22px;
+   }
+    
+  .del-span{
+     width:18px;
+     height: 18px;
+     background:#3C5B6F;
+     border-radius: 100%;
+     display: flex;
+     margin-right: 10px;
+     justify-content: center;
+     align-items: center;
+  }
+.spinner-container{
+  width: 100%;
+  min-height: 220px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+.about{
+  height: 200px;
+  background: pink;
+}
+
